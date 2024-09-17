@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Portfolio - M.P. Goutam</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Arial", sans-serif;
+        line-height: 1.6;
+        background-color: #f4f4f4;
+        color: #333;
+      }
+
+      nav {
+        background-color: #8f00ff;
+        color: white;
+        padding: 15px;
+        text-align: center;
+        font-size: 1.2em;
+      }
+
+      header {
+        padding: 60px;
+        text-align: center;
+        background-color: #8f00ff;
+        color: white;
+      }
+
+      header h1 {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+      }
+
+      header p {
+        font-size: 1.2em;
+      }
+
+      .container {
+        padding: 30px;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      .section-title {
+        text-align: center;
+        margin-bottom: 40px;
+        font-size: 2em;
+        color: #8f00ff;
+      }
+
+      .portfolio {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+      }
+
+      .portfolio-item {
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 30%;
+        margin-bottom: 20px;
+        overflow: hidden;
+        transition: transform 0.3s ease;
+      }
+
+      .portfolio-item:hover {
+        transform: scale(1.05);
+      }
+
+      .portfolio-item img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
+
+      .portfolio-item h3 {
+        text-align: center;
+        padding: 10px;
+        background-color: #8f00ff;
+        color: white;
+      }
+
+      .portfolio-item p {
+        padding: 20px;
+        text-align: justify;
+      }
+
+      .contact {
+        text-align: center;
+        padding: 40px 20px;
+        background-color: #f4f4f4;
+      }
+
+      .contact h2 {
+        font-size: 2em;
+        color: #8f00ff;
+        margin-bottom: 20px;
+      }
+
+      .contact-info {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-bottom: 20px;
+      }
+
+      .contact-info div {
+        text-align: center;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .contact-info div i {
+        font-size: 1.5em;
+        color: #8f00ff;
+      }
+
+      footer {
+        text-align: center;
+        padding: 20px;
+        background-color: #8f00ff;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>Portfolio of M.P. Goutam</nav>
+
+    <!-- Header Section -->
+    <header>
+      <h1>M.P. Goutam</h1>
+      <p>
+        Aspiring AI Engineer & Web Developer | Passionate about Tech &
+        Innovation
+      </p>
+    </header>
+
+    <!-- Portfolio Section -->
+    <section class="container">
+      <h2 class="section-title">My Projects</h2>
+      <div class="portfolio">
+        <!-- Project 1 -->
+        <div class="portfolio-item">
+          <img src="https://via.placeholder.com/400x200" alt="Project 1" />
+          <h3>Project 1: Smart Education Tool</h3>
+          <p>
+            This project involves a smart education tool for the deaf and mute,
+            featuring real-time sign language recognition, hand gesture
+            recognition, and a video call plugin.
+          </p>
+        </div>
+        <!-- Project 2 -->
+        <div class="portfolio-item">
+          <img src="https://via.placeholder.com/400x200" alt="Project 2" />
+          <h3>Project 2: Style Sculptor</h3>
+          <p>
+            Style Sculptor detects body shape and skin color to recommend
+            suitable clothing styles and educate users about extinct Indian
+            clothing forms.
+          </p>
+        </div>
+        <!-- Project 3 -->
+        <div class="portfolio-item">
+          <img src="https://via.placeholder.com/400x200" alt="Project 3" />
+          <h3>Project 3: Air Canvas</h3>
+          <p>
+            The Air Canvas project enables digital drawing using real-time hand
+            tracking, with text recognition for handwritten input.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+      <h2>Contact Me</h2>
+      <div class="contact-info">
+        <div>
+          <i class="fas fa-phone"></i>
+          <p>Phone: +91 xxxxxxxx</p>
+        </div>
+        <div>
+          <i class="fas fa-envelope"></i>
+          <p>Email: goutamhegde2000g@gmail.com</p>
+        </div>
+        <div>
+          <i class="fas fa-map-marker-alt"></i>
+          <p>Location: xxxxxx</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>&copy; 2024 M.P. Goutam - All Rights Reserved</footer>
+
+    <!-- FontAwesome Icons for the contact section -->
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
